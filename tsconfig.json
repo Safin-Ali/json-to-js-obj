@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "target": "ES2015",
+		"outDir": "./dist",
+        "esModuleInterop": true,
+        "strict": true,
+        "typeRoots": ["node_modulesX/@types", "src/types"]
+    },
+    "include": ["./src/**/*.ts"],
+    "exclude": ["node_modulesX"]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "json-to",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Safin-Ali/json-to-object-js.git"
+  },
+  "keywords": [
+    "json-comments-clean",
+    "json-to-object",
+    "json-comments-stripper"
+  ],
+  "author": "Safin Ali",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Safin-Ali/json-to-object-js/issues"
+  },
+  "homepage": "https://github.com/Safin-Ali/json-to-object-js#readme",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  }
+}
