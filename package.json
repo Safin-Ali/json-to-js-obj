@@ -1,10 +1,10 @@
 {
-  "name": "json-to",
+  "name": "json-to-js-obj",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "build": "npx tsc"
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/Safin-Ali/json-to-object-js#readme",
   "dependencies": {
     "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0"
   }
 }
