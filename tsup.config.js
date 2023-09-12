@@ -6,6 +6,8 @@ export default defineConfig({
 	dts: true,
 	target: 'node16',
 	splitting: false,
+	minify:true,
 	treeshake:true,
 	clean: true,
+	bundle:true,
 });
