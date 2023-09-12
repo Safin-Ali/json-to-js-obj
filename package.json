@@ -1,6 +1,6 @@
 {
   "name": "json-to-js-obj",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to remove comments from JSON and return javascript object",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
