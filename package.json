@@ -1,6 +1,6 @@
 {
   "name": "json-to-js-obj",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A utility to remove comments from JSON and return javascript object",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Safin-Ali/json-to-js-obj#readme",
   "devDependencies": {
-    "tsup": "^7.2.0"
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
   }
 }

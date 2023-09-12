@@ -5,9 +5,12 @@
 To install the JSON-to-JS-OBJ Converter, use your preferred package manager:
 
 ```bash
-npm install -D json-to-js-ibj
-Or
-yarn add json-to-js-ibj --dev
+npm install -D json-to-js-obj
+```
+**Or**
+
+```bash
+yarn add json-to-js-obj --dev
 ```
 
 ## Overview
