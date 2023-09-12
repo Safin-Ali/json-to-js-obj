@@ -6,8 +6,8 @@
 		"outDir": "./dist",
         "esModuleInterop": true,
         "strict": true,
-        "typeRoots": ["node_modulesX/@types", "src/types"]
+        "typeRoots": ["node_modules/@types", "src/types"]
     },
     "include": ["./src/**/*.ts"],
-    "exclude": ["node_modulesX"]
+    "exclude": ["node_modules"]
 }
