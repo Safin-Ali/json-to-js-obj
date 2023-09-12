@@ -5,27 +5,25 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
+  "readme": "README.md",
   "scripts": {
     "build": "tsup"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Safin-Ali/json-to-object-js.git"
+    "url": "git+https://github.com/Safin-Ali/json-to-js-obj"
   },
   "keywords": [
     "json-comments-clean",
     "json-to-object",
     "json-comments-stripper"
   ],
-  "author": "Safin Ali",
+  "author": "Safin Ali <safin.ali.7205@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Safin-Ali/json-to-object-js/issues"
+    "url": "https://github.com/Safin-Ali/json-to-js-obj/issues"
   },
-  "homepage": "https://github.com/Safin-Ali/json-to-object-js#readme",
-  "dependencies": {
-    "typescript": "^5.2.2"
-  },
+  "homepage": "https://github.com/Safin-Ali/json-to-js-obj#readme",
   "devDependencies": {
     "tsup": "^7.2.0"
   }
