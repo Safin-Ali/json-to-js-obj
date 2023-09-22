@@ -6,7 +6,7 @@
  */
 const jsonPharse = (json: string): any => {
 	try {
-		
+
 		if (typeof json !== 'string') throw new Error('argument is not string');
 
 		// remove comments
@@ -23,7 +23,8 @@ const jsonPharse = (json: string): any => {
 		return jsObj;
 	}
 	catch (error: any) {
-		return console.log(`\x1b[31m${error.message}\x1b[0m`)
+		console.log(`\x1b[31m${error.message}\x1b[0m`);
+		throw new Error();
 	}
 };
 
